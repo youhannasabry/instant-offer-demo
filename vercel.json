@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/offer.js": { "runtime": "nodejs18.x" }
+  },
+  "routes": [{ "src": "/api/offer", "dest": "/api/offer.js" }],
+  "env": {
+    "GEOCODER_API_KEY": "@geocoder_key",
+    "COMPS_PROVIDER": "attom",
+    "ESTATED_KEY": "@estated_key",
+    "ATTOM_KEY": "@attom_key"
+  }
+}
